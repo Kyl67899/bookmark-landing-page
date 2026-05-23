@@ -1,0 +1,401 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="style.css" />
+    <title>Bookmark Landing Page</title>
+
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  </head>
+
+  <body>
+    <!-- NAVBAR -->
+    <nav class="container">
+      <div class="logo">BOOKMARK</div>
+
+      <div class="menu-btn" id="menu-btn">☰</div>
+
+      <div class="nav-links" id="nav-links">
+        <a href="#features">Features</a>
+        <a href="#pricing">Pricing</a>
+        <a href="#contact">Contact</a>
+        <a href="#login" class="login-btn">Login</a>
+      </div>
+    </nav>
+
+    <!-- HERO -->
+
+    <section class="hero container">
+      <div class="hero-text">
+        <h1>A Simple Bookmark Manager</h1>
+
+        <p>
+          A clean and simple interface to organize your favourite websites. Open
+          a new browser tab and see your sites load instantly.
+        </p>
+
+        <div class="hero-buttons">
+          <button class="btn btn-primary">Get it on Chrome</button>
+          <button class="btn btn-secondary">Get it on Firefox</button>
+        </div>
+      </div>
+
+      <div class="hero-image">
+        <img src="./images/illustration-hero.svg" alt="hero" />
+      </div>
+    </section>
+
+    <!-- FEATURES -->
+
+    <section class="features container" id="features">
+      <div class="section-title">
+        <h2>Features</h2>
+        <p>
+          Out aim is to make it quick and easy for you to access your favorite
+          websites. Your bookmark sync between your devices so you can access
+          them on the go.
+        </p>
+      </div>
+
+      <!-- Tabs -->
+      <div class="tabs">
+        <div class="tab active" data-id="1">Simple Bookmarking</div>
+
+        <div class="tab" data-id="2">Speedy Searching</div>
+
+        <div class="tab" data-id="3">Easy Sharing</div>
+      </div>
+
+      <!-- Tab 1 -->
+      <div class="feature-content active-content" data-content="1">
+        <div class="feature-image">
+          <img src="./images/illustration-features-tab-1.svg" alt="" />
+        </div>
+
+        <div class="feature-text">
+          <h3>Bookmark in one click</h3>
+
+          <p>
+            Organize your bookmarks however you like. Our simple drag-and-drop
+            interface gives you complete control over how you manage your
+            favourite sites.
+          </p>
+
+          <button class="btn btn-primary">More Info</button>
+        </div>
+      </div>
+
+      <!-- Tab 2 -->
+      <div class="feature-content" data-content="2">
+        <div class="feature-image">
+          <img src="./images/illustration-features-tab-2.svg" alt="" />
+        </div>
+
+        <div class="feature-text">
+          <h3>Intelligent search</h3>
+
+          <p>
+            Our powerful search feature will help you find saved sites in no
+            time at all. No need to crawl through all of your bookmarks.
+          </p>
+
+          <button class="btn btn-primary">More Info</button>
+        </div>
+      </div>
+
+      <!-- Tab 3 -->
+      <div class="feature-content" data-content="3">
+        <div class="feature-image">
+          <img src="./images/illustration-features-tab-3.svg" alt="" />
+        </div>
+
+        <div class="feature-text">
+          <h3>Share your bookmarks</h3>
+
+          <p>
+            Easily share your bookmarks and collections with others. Create a
+            shareable link that you can send at the click of a button.
+          </p>
+
+          <button class="btn btn-primary">More Info</button>
+        </div>
+      </div>
+    </section>
+
+    <!-- DOWNLOAD -->
+
+    <section class="download container" id="download">
+      <div class="section-title">
+        <h2>Download the extension</h2>
+
+        <p>
+          We've got more browsers in the pipeline. Please let us know if you've
+          got a favourite you'd like us to prioritize.
+        </p>
+      </div>
+
+      <div class="cards">
+        <div class="card">
+          <img src="./images/logo-chrome.svg" alt="Chrome" />
+          <h4>Add to Chrome</h4>
+          <p>Minimum version 62</p>
+          <div class="line"></div>
+          <button class="btn btn-primary">Add & Install Extension</button>
+        </div>
+
+        <div class="card">
+          <img src="./images/logo-firefox.svg" alt="Firefox" />
+          <h4>Add to Firefox</h4>
+          <p>Minimum version 55</p>
+          <div class="line"></div>
+          <button class="btn btn-primary">Add & Install Extension</button>
+        </div>
+
+        <div class="card">
+          <img src="./images/logo-opera.svg" alt="Opera" />
+          <h4>Add to Opera</h4>
+          <p>Minimum version 46</p>
+          <div class="line"></div>
+          <button class="btn btn-primary">Add & Install Extension</button>
+        </div>
+      </div>
+    </section>
+
+    <!-- FAQ -->
+
+    <section class="faq container" id="faq">
+      <div class="section-title">
+        <h2>Frequently Asked Questions</h2>
+
+        <p>
+          Here are some of our FAQs. If you have any other questions you'd like
+          answered please feel free to email us.
+        </p>
+      </div>
+
+      <div class="faq-item">
+        <div class="faq-question">
+          <span>What is Bookmark?</span>
+          <span>⌄</span>
+        </div>
+
+        <div class="faq-answer">
+          <p>
+            Bookmark is a simple bookmark manager that helps you organize your
+            favourite websites.
+          </p>
+        </div>
+      </div>
+
+      <div class="faq-item">
+        <div class="faq-question">
+          <span>How can I request a new browser?</span>
+          <span>⌄</span>
+        </div>
+
+        <div class="faq-answer">
+          <p>
+            You can contact us through our support page and suggest a browser.
+          </p>
+        </div>
+      </div>
+
+      <div class="faq-item">
+        <div class="faq-question">
+          <span>Is there a mobile app?</span>
+          <span>⌄</span>
+        </div>
+
+        <div class="faq-answer">
+          <p>Yes, a mobile app is currently in development.</p>
+        </div>
+      </div>
+
+      <div class="faq-item">
+        <div class="faq-question">
+          <span>What about other Chromium browsers?</span>
+          <span>⌄</span>
+        </div>
+
+        <div class="faq-answer">
+          <p>Most Chromium browsers are supported automatically.</p>
+        </div>
+      </div>
+
+      <div class="faq-btn">
+        <button class="btn btn-primary">More Info</button>
+      </div>
+    </section>
+
+    <!-- NEWSLETTER -->
+
+    <section class="newsletter" id="contact">
+      <small>35,000+ already joined</small>
+
+      <h2>Stay up-to-date with what we're doing</h2>
+
+      <form action="" class="newsletter-form" id="newsletter-form">
+        <div class="input-group">
+          <input
+            type="email"
+            id="email"
+            placeholder="Enter Your Email Address"
+          />
+          <small class="error-message"></small>
+          <p class="success-message" id="success-message"></p>
+        </div>
+
+        <button type="submit">Contact Us</button>
+      </form>
+    </section>
+
+    <!-- FOOTER -->
+
+    <footer>
+      <div class="container footer-content">
+        <div class="footer-links">
+          <div class="logo" style="color: white">BOOKMARK</div>
+
+          <a href="#features">Features</a>
+          <a href="#pricing">Pricing</a>
+          <a href="#contact">Contact</a>
+        </div>
+
+        <div class="socials">
+          <span>
+            <img src="./images/icon-facebook.svg" alt="facebook" />
+          </span>
+          <span>
+            <img src="./images/icon-twitter.svg" alt="twitter" />
+          </span>
+        </div>
+      </div>
+    </footer>
+
+    <script>
+      /* =========================
+          FAQ ACTIVE STATE
+        ========================= */
+
+      const faqItems = document.querySelectorAll(".faq-item");
+
+      faqItems.forEach((item) => {
+        item.addEventListener("click", () => {
+          faqItems.forEach((faq) => {
+            if (faq !== item) {
+              faq.classList.remove("active");
+            }
+          });
+
+          item.classList.toggle("active");
+        });
+      });
+
+      /* =========================
+           FEATURES TABS
+        ========================= */
+
+      const tabs = document.querySelectorAll(".tab");
+      const featureContents = document.querySelectorAll(".feature-content");
+
+      tabs.forEach((tab) => {
+        tab.addEventListener("click", () => {
+          const id = tab.dataset.id;
+
+          // Remove active tab
+          tabs.forEach((item) => {
+            item.classList.remove("active");
+          });
+
+          // Hide all tab content
+          featureContents.forEach((content) => {
+            content.classList.remove("active-content");
+          });
+
+          // Activate clicked tab
+          tab.classList.add("active");
+
+          // Show matching content
+          document
+            .querySelector(`.feature-content[data-content="${id}"]`)
+            .classList.add("active-content");
+        });
+      });
+
+      /* =========================
+           MOBILE NAVBAR
+        ========================= */
+
+      const menuBtn = document.getElementById("menu-btn");
+      const navLinks = document.getElementById("nav-links");
+
+      menuBtn.addEventListener("click", () => {
+        navLinks.classList.toggle("active");
+
+        document.body.classList.toggle("menu-open");
+
+        menuBtn.innerHTML = navLinks.classList.contains("active") ? "✕" : "☰";
+      });
+
+      /* =========================
+           CLOSE MENU ON LINK CLICK
+        ========================= */
+
+      document.querySelectorAll(".nav-links a").forEach((link) => {
+        link.addEventListener("click", () => {
+          navLinks.classList.remove("active");
+
+          document.body.classList.remove("menu-open");
+
+          menuBtn.innerHTML = "☰";
+        });
+      });
+
+      // form validation
+      const form = document.getElementById("newsletter-form");
+      const emailInput = document.getElementById("email");
+      const errorMessage = document.querySelector(".error-message");
+      const successMessage = document.getElementById("success-message");
+
+      form.addEventListener("submit", (e) => {
+        e.preventDefault();
+
+        const email = emailInput.value.trim();
+
+        // Email Regex
+
+        const emailPattern = /^[^\s@]+@[^\s@]+\.[^\s@]+$/;
+
+        // Reset states
+        emailInput.classList.remove("error");
+        errorMessage.classList.remove("active");
+        successMessage.textContent = "";
+
+        // Validation
+        if (email === "") {
+          showError("Email cannot be empty");
+          return;
+        }
+
+        if (!emailPattern.test(email)) {
+          showError("Whoops, make sure it's an email");
+          return;
+        }
+
+        // Success
+        successMessage.textContent =
+          "Thank you! Your email has been submitted.";
+
+        form.reset();
+      });
+
+      function showError(message) {
+        emailInput.classList.add("error");
+        errorMessage.classList.add("active");
+        errorMessage.textContent = message;
+      }
+    </script>
+  </body>
+</html>
