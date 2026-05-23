@@ -45,8 +45,8 @@ Then crop/optimize/edit your image however you like, add it to your project, and
 
 ### Links
 
-- Solution URL: [Frontend Mentor Github Repo](https://github.com/Kyl67899/bookmark-landing-page)
-- Live Site URL: [Add live site URL here](https://kyl67899.github.io/bookmark-landing-page/)
+- Solution URL: [Frontend Mentor Github Repo](https://your-solution-url.com)
+- Live Site URL: [Add live site URL here](https://your-live-site-url.com)
 
 ## My process
 
@@ -102,7 +102,7 @@ I was able to work with crteating the html, css, and the logic afterwards.
 ## Author
 
 - Website - [kyle Parsotan](https://www.kylepprofile.dev)
-- Frontend Mentor - [@Kyl67899](https://www.frontendmentor.io/profile/Kyl67899)
+- Frontend Mentor - [@yourusername](https://www.frontendmentor.io/profile/Kyl67899)
 
 ## Acknowledgments
 
